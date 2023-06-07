@@ -1,9 +1,14 @@
+// StyledComponentsライブラリのインポート
 import styled from "styled-components";
-
+// スタイルを適用したコンポーネントを定義する
 export const StyledComponents = () => {
   return (
+    // この記述だと、いちいち「div class="~"」という記載が不要というメリット？？
+    // divタグ
     <SContainer>
+      {/* pタグ */}
       <STitle>styled componentsです</STitle>
+      {/* buttonタグ */}
       <SButton>ボタン</SButton>
     </SContainer>
   );
